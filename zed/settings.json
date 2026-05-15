@@ -1,0 +1,142 @@
+{
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+      },
+      "enable_lsp_tasks": true,
+    },
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+  },
+  "prettier": {
+    "allowed": true,
+  },
+  "agent": {
+    "dock": "right",
+    "sidebar_side": "right",
+    "favorite_models": [],
+    "model_parameters": [],
+  },
+  "session": {
+    "trust_all_worktrees": true,
+  },
+  "show_signature_help_after_edits": false,
+  "auto_signature_help": false,
+  "file_types": {
+    "json": [".prettierrc"],
+    "dotenv": [".env.*", ".dev.vars"],
+    "css": ["*.css"],
+  },
+  "agent_servers": {
+    "cursor": {
+      "type": "registry",
+    },
+    "claude-acp": {
+      "type": "registry",
+    },
+  },
+
+  // Keymap and shortcut settings
+  "base_keymap": "VSCode",
+  "vim_mode": true,
+
+  // UI Settings section
+  "drag_and_drop_selection": {
+    "enabled": false,
+  },
+  "extend_comment_on_newline": false,
+  "close_on_file_delete": true,
+  "restore_on_file_reopen": false,
+  "show_completions_on_input": false, // use ctrl + space instead
+  "inline_code_actions": false,
+  "auto_indent": "syntax_aware",
+  "auto_indent_on_paste": false,
+  "selection_highlight": false,
+  "cursor_blink": false,
+  "relative_line_numbers": "enabled",
+  "ui_font_weight": 400.0,
+  "terminal": {
+    "font_size": 14.0,
+    "font_family": "JetBrainsMono Nerd Font",
+  },
+  "ui_font_family": "JetBrainsMono Nerd Font",
+  "buffer_line_height": {
+    "custom": 1.6,
+  },
+  "show_whitespaces": "none",
+  "preview_tabs": {
+    "enabled": false,
+  },
+  "semantic_tokens": "off",
+  "tab_size": 2,
+  "gutter": {
+    "line_numbers": true,
+  },
+  "minimap": {
+    "show": "never",
+  },
+  "scrollbar": {
+    "axes": {
+      "vertical": false,
+    },
+    "show": "never",
+  },
+  "current_line_highlight": "none",
+  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Soft Charmed Icons",
+    "dark": "Soft Charmed Icons",
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Aura Dark",
+  },
+  "theme_overrides": {
+    "Aura Dark": {
+      "border.variant": "#15141C",
+      // "border": "#15141C",
+      "title_bar.background": "#15141C",
+      "panel.background": "#15141C",
+      "panel.focused_border": "#4e466e",
+      "players": [
+        {
+          "cursor": "#bd9dff",
+        },
+      ],
+    },
+  },
+  "title_bar": {
+    "show_onboarding_banner": false,
+    "show_project_items": false,
+    "show_user_menu": false,
+  },
+  "tab_bar": {
+    "show": true,
+  },
+  "project_panel": {
+    "dock": "left",
+    "auto_fold_dirs": false,
+    "sort_mode": "directories_first",
+    "sticky_scroll": false,
+  },
+  "file_finder": {
+    "modal_max_width": "xlarge",
+  },
+}
